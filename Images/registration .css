@@ -1,0 +1,81 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('../Images/login.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    width: 90%;
+    max-width: 1000px;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.form-section {
+    flex: 1;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+.form-section form {
+    width: 100%;
+    max-width: 300px;
+}
+
+label, input, button {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    font-size: 1rem;
+}
+
+.btn {
+    display: inline-block;
+    width: auto;
+    padding: 8px 12px;
+    margin-top: 10px;
+}
+
+
+:root {
+    --main-color: rgb(10, 153, 235);
+    --hover-color: rgb(20, 160, 220);
+    --black: #333;
+    --white: #fff;
+}
+
+
+.header {
+    background-color: var(--white);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 1rem 0;
+}
+
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+}

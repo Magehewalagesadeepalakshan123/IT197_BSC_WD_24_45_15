@@ -1,0 +1,162 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    color: #007bff;
+}
+
+/* Header Styles */
+header {
+    background-color: #00cccc;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+header img {
+    margin-right: 15px;
+    border-radius: 50%;
+}
+
+.nav-pills .nav-link {
+    color: #fff;
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+.nav-pills .nav-link.active {
+    background-color: #007bff;
+    color:black;
+    border-radius: 5px;
+}
+
+.nav-pills .nav-link:hover {
+    color: #007bff;
+    background-color: #e9ecef;
+}
+
+/* Title and Subtitle */
+h1.text-center {
+    margin: 20px 0 10px;
+    font-size: 2.5rem;
+    color: #007bff;
+}
+
+h1 .L {
+    color: #ff4500;
+}
+
+p.text-center {
+    font-size: 1.2rem;
+    color: #6c757d;
+}
+
+/* Main Section */
+.card {
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.card img {
+    border-bottom: 2px solid #00cccc;
+    object-fit: cover;
+}
+
+.card-body h3 {
+    font-size: 1.5rem;
+    color: #007bff;
+    margin-bottom: 10px;
+}
+
+.card-body p {
+    font-size: 0.9rem;
+    color: #6c757d;
+}
+
+.card-body h5 {
+    font-size: 1.1rem;
+    color: #343a40;
+}
+
+.card-body .btn-outline-primary {
+    border: 1px solid #007bff;
+    color: #007bff;
+    transition: all 0.3s;
+}
+
+.card-body .btn-outline-primary:hover {
+    background-color: #007bff;
+    color: #fff;
+}
+
+/* Footer */
+footer {
+    background-color: #f1f1f1;
+    padding: 20px 0;
+}
+
+footer ul.nav {
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+footer ul.nav .nav-link {
+    color: #6c757d;
+    transition: color 0.3s;
+}
+
+footer ul.nav .nav-link:hover {
+    color: #007bff;
+}
+
+footer p {
+    margin: 0;
+    font-size: 0.9rem;
+    color: #6c757d;
+}
+
+footer .list-unstyled a {
+    color: #6c757d;
+    transition: color 0.3s;
+}
+
+footer .list-unstyled a:hover {
+    color: #007bff;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    h1.text-center {
+        font-size: 2rem;
+    }
+
+    .card img {
+        height: auto;
+    }
+
+    .card-body h3 {
+        font-size: 1.3rem;
+    }
+}

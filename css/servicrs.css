@@ -1,0 +1,164 @@
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin:0;
+    padding: 0;
+    background-color: #f8f9f8;
+    color: #333;
+
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding:  0 15px;
+}
+
+
+h1,h2,h3,h4,h5,h6{
+    font-weight: bold;
+
+}
+
+
+
+.process-block{
+    background-color: #B2EBF2;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+}
+
+
+.process-block:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+
+}
+
+
+.procees-num{
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 50%;
+    padding: 10px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+footer{
+    background-color:#fff;
+    color: #fff;
+    padding: 20px 0;
+}
+
+footer-list-style{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+
+.footer-list-style li{
+    margin-bottom: 10px;
+}
+
+.footer-list-style a{
+    color:#ccc;
+   text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-list-style a:hover{
+    color: #fff;
+}
+
+footer-social-style{
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-list-style li{
+    margin-right: 15px;
+}
+
+.footer-list-style a{
+    color: #ccc;
+    font-size: 20px;
+    transition: color 0.3s ease;
+}
+
+.footer-social-style1 a:hover {
+    color: #007bff;
+}
+
+.nav-item .nav-link {
+    color: #ccc;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.nav-item .nav-link:hover {
+    color: #fff;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+}
+
+.nav-item {
+    margin-right: 20px;
+}
+
+.text-body-secondary {
+    color: #adb5bd;
+}
+
+
+.footer-form input {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    width: 100%;
+}
+
+.footer-form button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.footer-form button:hover {
+    background-color: #0056b3;
+}
+
+
+.wow {
+    animation: fadeIn ease 1.5s;
+}
+
+
+
+
+
+
+
+
+
+
+
